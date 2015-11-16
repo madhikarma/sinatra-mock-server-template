@@ -7,6 +7,7 @@
 ## Dependencies
 - Rack (web server middleware)
 - Sinatra (web server framework)
+- Grape (web server framework)
 
 ## Setup
 
@@ -22,6 +23,8 @@ Otherwise install the following libraries:
 <code>gem install rack</code>
 
 <code>gem install sinatra</code>
+
+<code>gem install grape</code>
 
 ### Troubleshooting
 - If you have permissions issues installing then a quick fix is to run the commands as root user e.g. <code>sudo gem install rack</code> and <code>sudo gem install sinatra</code>
@@ -44,10 +47,9 @@ You should see the following output:
 
 <img src="README_screenshots/app_rb.png" alt="code screenshot" width="805" height="272">
 
-Visit <code>http://0.0.0.0:9292/repos/contributors/</code> to see sample mock JSON response.
-
 <img src="README_screenshots/mock_server_response_1.png" alt="mock server screenshot" width="854" height="272">
 
 
 You can updated the responses and endpoints target this local server in automated tests for your mobile applications. 🎉
 
+Visit <code>http://0.0.0.0:9292/repos/contributors/</code> to see sample mock JSON response.
