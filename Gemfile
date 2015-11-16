@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
-gem install rack
-gem install sinatra
+gem 'rack'
+gem 'sinatra'
+gem 'grape'
