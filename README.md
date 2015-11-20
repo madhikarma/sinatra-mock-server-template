@@ -31,11 +31,13 @@ Otherwise install the following libraries:
 Open a terminal and start the web server:
 
 - <code>cd sinatra-mock-server-template/</code>
-- <code>rackup</code>
+- <code>rake</code>
 
+You should see an output similar to this:
 
-You should see the following output:
-	<img src="README_screenshots/terminal_1.png" alt="terminal screenshot" width="504" height="42">
+![Terminal screenshot](README_screenshots/terminal_1.png)
+
+The server is now bound to your local IP address, making also possible to point devices to it.
 
 ## Updating the API
 
@@ -49,4 +51,4 @@ You should see the following output:
 
 You can updated the responses and endpoints target this local server in automated tests for your mobile applications. 🎉
 
-Visit <code>http://0.0.0.0:9292/repos/contributors/</code> to see sample mock JSON response.
+Visit <code>http://YOUR_IP:9292/repos/contributors/</code> to see sample mock JSON response.
