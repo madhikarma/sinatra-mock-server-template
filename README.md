@@ -7,7 +7,6 @@
 ## Dependencies
 - Rack (web server middleware)
 - Sinatra (web server framework)
-- Grape (web server framework)
 
 ## Setup
 
@@ -24,8 +23,6 @@ Otherwise install the following libraries:
 
 <code>gem install sinatra</code>
 
-<code>gem install grape</code>
-
 ### Troubleshooting
 - If you have permissions issues installing then a quick fix is to run the commands as root user e.g. <code>sudo gem install rack</code> and <code>sudo gem install sinatra</code>
 
@@ -39,7 +36,7 @@ Open a terminal and start the web server:
 
 You should see the following output:
 	<img src="README_screenshots/terminal_1.png" alt="terminal screenshot" width="504" height="42">
-	
+
 ## Updating the API
 
 - Edit the <code>App.rb</code> and add new endpoints matching the URLs you want to mock
