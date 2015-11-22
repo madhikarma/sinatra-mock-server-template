@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
 gem 'rack'
 gem 'sinatra'
-gem 'grape'
+gem 'sinatra-contrib'
+gem 'rake'
